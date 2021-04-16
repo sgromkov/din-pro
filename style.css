@@ -18,6 +18,59 @@ td {
     font-family: 'DINPro-CondensedBoldItalic';
 }
 
+/* Winline style */
+
+.winline-coef-link {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Safari 11+ */
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    .winline-coef-link {
+       font-size: 12px;
+    }
+}}
+
+/* Safari 10.1 */
+@media not all and (min-resolution:.001dpcm){
+@supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+    .winline-coef-link {
+       font-size: 12px;
+    }
+}}
+
+.winline-coef-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.winline-coef {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    min-width: 30px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6px;
+    border-radius: 12px;
+    margin-left: 6px;
+    background: rgb(103,94,92);
+    background: -moz-linear-gradient(180deg, rgba(103,94,92,1) 0%, rgba(12,10,9,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(103,94,92,1) 0%, rgba(12,10,9,1) 100%);
+    background: linear-gradient(180deg, rgba(103,94,92,1) 0%, rgba(12,10,9,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#675e5c",endColorstr="#0c0a09",GradientType=1);
+}
+
+.winline-coef-prefix {
+    color: #f06b24;
+    margin-right: 5px;
+}
+
 @font-face {
    font-family: 'DINPro-BoldItalic';
    src: url('./DINPro-BoldItalic.woff2?raw=true') format('woff2');
