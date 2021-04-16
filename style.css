@@ -14,6 +14,10 @@ td {
     font-family: 'DINPro-BoldItalic';
 }
 
+.font-original-condensed-black-italic {
+    font-family: 'DINPro-CondensedBlackItalic';
+}
+
 .font-original-condensed-bold-italic {
     font-family: 'DINPro-CondensedBoldItalic';
 }
@@ -73,7 +77,7 @@ td {
 
 @font-face {
    font-family: 'DINPro-BoldItalic';
-   src: url('./DINPro-BoldItalic.woff2?raw=true') format('woff2');
+   src: url('./DINPro-BoldItalic.woff2') format('woff2');
    font-weight: normal;
    font-style: normal;
    font-display: swap;
@@ -81,7 +85,15 @@ td {
 
 @font-face {
    font-family: 'DINPro-CondensedBoldItalic';
-   src: url('./DINPro-CondensedBoldItalic.woff2?raw=true') format('woff2');
+   src: url('./DINPro-CondensedBoldItalic.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'DINPro-CondensedBlackItalic';
+   src: url('./DINPro-CondensedBlackItalic.woff2') format('woff2');
    font-weight: normal;
    font-style: normal;
    font-display: swap;
