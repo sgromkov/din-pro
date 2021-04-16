@@ -1,6 +1,24 @@
+html {
+    font-size: 60px;
+    background-color: black;
+    color: white;
+}
+
+.font-production {
+    font-family: 'DIN Pro Bold Italic';
+}
+
+.font-original-bold-italic {
+    font-family: 'DINPro-BoldItalic';
+}
+
+.font-original-condensed-bold-italic {
+    font-family: 'DINPro-CondensedBoldItalic';
+}
+
 @font-face {
    font-family: 'DINPro-BoldItalic';
-   src: url('https://github.com/sgromkov/din-pro/blob/main/DINPro-BoldItalic.woff2?raw=true') format('woff2');
+   src: url('./DINPro-BoldItalic.woff2?raw=true') format('woff2');
    font-weight: normal;
    font-style: normal;
    font-display: swap;
@@ -8,7 +26,7 @@
 
 @font-face {
    font-family: 'DINPro-CondensedBoldItalic';
-   src: url('https://github.com/sgromkov/din-pro/blob/main/DINPro-CondensedBoldItalic.woff2?raw=true') format('woff2');
+   src: url('./DINPro-CondensedBoldItalic.woff2?raw=true') format('woff2');
    font-weight: normal;
    font-style: normal;
    font-display: swap;
